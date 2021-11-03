@@ -3,8 +3,9 @@ var c="Hello"
 let t=()=>
 {
     let c="World"
-    console.log(c)
+    return c
 }
 
-t()
+let m=t()
+console.log(m)
 console.log(c)
